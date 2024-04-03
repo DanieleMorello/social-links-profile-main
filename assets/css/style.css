@@ -1,0 +1,53 @@
+:root {
+  --primary: #c5f82a;
+  --light: #ffffff;
+  --secondary: #333333;
+  --dark-secondary: #1f1f1f;
+  --dark: #141414;
+  --link: #3e52a3;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* RESET CSS */
+
+body {
+  background-color: var(--dark);
+}
+
+@font-face {
+  font-family: Inter;
+  src: url("../fonts/Inter-VariableFont_slnt\,wght.ttf");
+}
+
+.container {
+  max-width: 375px;
+}
+/* MOBILE */
+
+p {
+  font-size: 14px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: var(--link);
+}
+
+@media only screen and (min-width: 1440px) {
+  .container {
+    max-width: 1440px;
+  }
+
+  .attribution {
+    margin-top: 7rem;
+    font-size: 16px;
+  }
+}
+/* DESKTOP */
