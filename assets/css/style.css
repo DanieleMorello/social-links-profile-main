@@ -86,6 +86,17 @@ body {
   border: none;
   border-radius: 5px;
   padding: 1rem;
+  font-weight: bold;
+}
+
+.btn:hover {
+  cursor: pointer;
+  color: var(--dark);
+  background-color: var(--primary);
+}
+
+.btn:active {
+  cursor: url("../images/hand-pointer-solid.svg"), auto;
 }
 
 p {
