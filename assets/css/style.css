@@ -17,6 +17,7 @@
 
 body {
   background-color: var(--dark);
+  overflow: hidden;
 }
 
 @font-face {
@@ -93,6 +94,7 @@ p {
 
 .btn {
   background-color: var(--secondary);
+  width: 19rem;
 }
 
 .attribution {
@@ -107,10 +109,11 @@ p {
 @media only screen and (min-width: 1440px) {
   .container {
     max-width: 1440px;
+    width: 385px;
   }
 
   p {
-    font-size: 14px;
+    font-size: 19px;
   }
 
   .attribution {
